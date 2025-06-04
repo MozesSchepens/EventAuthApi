@@ -17,15 +17,16 @@ Deze REST API biedt endpoints voor:
 2. Open `EventAuthApi.sln`
 3. Controleer de `appsettings.json`:
 
-"Jwt": {
+`"Jwt": {
   "Key": "JOUW_SUPER_GEHEIME_SLEUTEL_VAN_MIN_32_BYTES",
   "Issuer": "EventAuthApi",
   "Audience": "MauiFixTest",
   "DurationInMinutes": "60"
-}
+}`
+
 Voer EF Core migraties uit:
 
-dotnet ef database update
+`dotnet ef database update`
 Start het project (Ctrl + F5)
 
 Gebruik Swagger UI op https://localhost:xxxx/swagger om endpoints te testen
@@ -37,7 +38,7 @@ POST /api/auth/login → retourneert JWT-token
 
 Gebruik dit token in je mobiele app voor beveiligde communicatie.
 
-Structuur
+## Structuur
 Controllers/
 
 AuthController.cs: login en registratie
@@ -50,7 +51,7 @@ Models/
 
 LoginDto.cs, RegisterDto.cs
 
-AI-geassisteerde hulp
+## AI-geassisteerde hulp
 Volgende zaken werden deels gegenereerd met GitHub Copilot of ChatGPT:
 
 JWT-configuratie in Program.cs
@@ -59,6 +60,6 @@ AuthController logica
 
 Setup van Identity Framework
 
-Licentie
+## Licentie
 Onderwijsdoeleinden. Geen distributie zonder toestemming.
 
