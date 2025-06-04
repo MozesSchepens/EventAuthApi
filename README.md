@@ -17,12 +17,12 @@ Deze REST API biedt endpoints voor:
 2. Open `EventAuthApi.sln`
 3. Controleer de `appsettings.json`:
 
-`"Jwt": {
+```"Jwt": {
   "Key": "JOUW_SUPER_GEHEIME_SLEUTEL_VAN_MIN_32_BYTES",
   "Issuer": "EventAuthApi",
   "Audience": "MauiFixTest",
   "DurationInMinutes": "60"
-}`
+}
 
 Voer EF Core migraties uit:
 
