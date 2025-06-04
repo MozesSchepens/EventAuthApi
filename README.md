@@ -55,7 +55,7 @@ Deze REST API biedt endpoints voor:
 | **Registeren**            | `POST /api/auth/register` | Nieuwe gebruiker aanmaken    |
 | **Login**                 | `POST /api/auth/login`    | JWT-token ontvangen           |
 
-➡Gebruik deze JWT-token in je mobiele app (MauiFixTest) voor beveiligde communicatie met de API.
+Gebruik deze JWT-token in je mobiele app (MauiFixTest) voor beveiligde communicatie met de API.
 
 ---
 
