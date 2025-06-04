@@ -17,7 +17,6 @@ Deze REST API biedt endpoints voor:
 2. Open `EventAuthApi.sln`
 3. Controleer de `appsettings.json`:
 
-```json
 "Jwt": {
   "Key": "JOUW_SUPER_GEHEIME_SLEUTEL_VAN_MIN_32_BYTES",
   "Issuer": "EventAuthApi",
@@ -26,9 +25,6 @@ Deze REST API biedt endpoints voor:
 }
 Voer EF Core migraties uit:
 
-bash
-Kopiëren
-Bewerken
 dotnet ef database update
 Start het project (Ctrl + F5)
 
